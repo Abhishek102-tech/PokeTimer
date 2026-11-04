@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 250px;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.left {
+    display: flex;
+    background-image: url('./resources/gengar.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+}
+
+.right {
+    display: flex;
+    background-color: #250F35;
+    color: #98E8DE;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    border: 2px solid #98E8DE;
+    border-radius: 10px;
+    background-color: #8E1EA2;
+    font-family: 'VT323', monospace;
+    font-size: 1.5rem;
+    font-variant-numeric: tabular-nums;
+    width: 90%;
+}
+
+.timer h1 { 
+    font-family: 'Press Start 2P', monospace;
+    font-size: 1rem;
+}
+
+#gengarWave {
+    max-height: 50%;
+    max-width: 80%;
+    object-fit: contain;
+}

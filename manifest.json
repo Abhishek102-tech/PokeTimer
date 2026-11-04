@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Poke timer",
+  "version": "1.0",
+  "description": "Browser Extension to count the time spent on a website.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": []
+}
