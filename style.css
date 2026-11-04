@@ -63,3 +63,27 @@ body {
     max-width: 80%;
     object-fit: contain;
 }
+
+.timestamp-addr{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #98E8DE;
+    color: #250F35;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.timestamp-btn{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #98E8DE;
+    color: #250F35;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
