@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poke timer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body>
     <div class="page">
@@ -15,8 +16,17 @@
         <h1>Poke timer</h1>
         <div class="time">00:00:00</div>
         </div>
-        <button class="timestamp-addr">Add Timestamp</button>
-        <button class="timestamp-btn"><a href="timeStamps.html" >TimeStamps</a></button>
+        <div class="btns">
+        <button class="timestamp-addr" title="Add TimeStamp"><span class="material-symbols-outlined">
+save_clock
+</span></button>
+        <button class="timestamp-btn" title="View TimeStamps"><a href="timeStamps.html"><span class="material-symbols-outlined">
+event_note
+</span></a></button>
+        <button class="alarm-addr" title="Add Alarm"><span class="material-symbols-outlined">
+alarm_add
+</span></button>
+        </div>
     </div>
     </div>
     <script src="popup.js"></script>

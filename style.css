@@ -87,3 +87,30 @@ body {
     font-size: 0.7rem;
     cursor: pointer;
 }
+
+.timestamp-btn a{
+    text-decoration: none;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.alarm-addr{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #98E8DE;
+    color: #250F35;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.timestamp-btn:hover, .timestamp-addr:hover, .alarm-addr:hover {
+    background-color: #8E1EA2;
+    color: #98E8DE;
+}
